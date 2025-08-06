@@ -20,3 +20,34 @@ cursor: pointer
     border-color: transparent;
     color: transparent;
 }
+
+input[type='range']::-webkit-slider-thumb {
+-webkit-appearance: 0;
+border: 1px solid #000;
+height: 36px;
+width: 16px;
+    border-radius: 10px;
+    background: #550;
+    cursor: pointer;
+    margin-top: -15px;
+    box-shadow: 1px 1px 1px rgba(121, 37, 37, 0.215);
+}
+input[type='range']::-moz-range-thumb {
+    border: 1px solid #000;
+    height: 36px;
+    width: 16px;
+    border-radius: 10px;
+    background: #550;
+    cursor: pointer;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+input[type='range']::-ms-thumb {
+    border: 1px solid #000;
+    height: 36px;
+    width: 16px;
+    border-radius: 10px;
+    background: #550;
+    cursor: pointer;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
