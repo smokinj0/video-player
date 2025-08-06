@@ -50,3 +50,32 @@ padding: 10px;
     border: none;
     cursor: pointer;
 }
+ .controls .fa-play {
+    color: #28a745;
+
+ }
+
+ .controls .fa-stop {
+    color: #ffc107;
+ }
+
+.controls .fa-pause {
+    color: #dc3545;
+ }
+
+ .controls .timestamp {
+    margin-left: 10px;
+    color: #fff;
+    font-weight: bold;
+ }
+
+ .btn:focus {
+    outline: none;
+ }
+
+ @media{max-width: 800px} {
+    .screen,
+    .controls {
+        width: 90%;
+    }
+ }
